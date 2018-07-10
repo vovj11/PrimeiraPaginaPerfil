@@ -1,8 +1,5 @@
-body{
-  background:linear-gradient(to bottom right ,#98F5FF, #4876FF) ;
-}
+
 h1{
-  text-align: center;
   font-weight: bold;
   text-shadow:2px 2px 5px red;
 }
@@ -15,4 +12,24 @@ img{
 }
 li{
   text-decoration: underline;
+}
+p, h1, h4, ol{
+  color: white;
+}
+                      /*** CLASSES ***/
+.PlanoDeFundo{
+  background: linear-gradient(to bottom right ,#98F5FF, #4876FF);
+  background-image: url(fundo3.jpg);
+}
+.titulo{
+  text-align: center;
+}
+
+.butao{
+  width: 100px;
+}
+.facebook a{
+  text-decoration: none;
+  color: red;
+
 }

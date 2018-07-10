@@ -1,7 +1,7 @@
 
 h1{
   font-weight: bold;
-  text-shadow:2px 2px 5px red;
+  text-shadow:2px 2px 5px black;
 }
 h4{
   font-weight: bold;
@@ -9,6 +9,7 @@ h4{
 img{
   border: 5px solid black;
   border-radius: 10%;
+
 }
 li{
   text-decoration: underline;
@@ -19,7 +20,8 @@ p, h1, h4, ol{
                       /*** CLASSES ***/
 .PlanoDeFundo{
   background: linear-gradient(to bottom right ,#98F5FF, #4876FF);
-  background-image: url(fundo3.jpg);
+  background-image: url(fundo4.jpg);
+  background-repeat:round ;
 }
 .titulo{
   text-align: center;
